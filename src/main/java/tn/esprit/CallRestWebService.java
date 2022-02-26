@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 public class CallRestWebService {
 	public static final String endpoint = "https://httpbin.org/get";
-
+	//commentaire 1
 	public static void main(String[] args) {
 		HttpClient client = new DefaultHttpClient();
 		HttpGet request = new HttpGet(endpoint);
